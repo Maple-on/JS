@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body
+{
+    margin-top: 150px;
+    background-color: #24292e;
+}
+.box {
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 222px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-left: 564px;
+    /* padding: 2px; */
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    background-color: #e0e3e4;
+    margin: 2px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button:active {
+    background: rgb(197, 193, 193);
+}
+
+.firstRow {
+    background-color: orange;
+}
+
+.orange {
+    background-color: #0366d6;
+}
+
+.view {
+    border: none;
+    color: black;
+    background-color: #f8f9fa;
+    width: 16vw;
+    height: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view :focus {
+    outline: none;
+}
